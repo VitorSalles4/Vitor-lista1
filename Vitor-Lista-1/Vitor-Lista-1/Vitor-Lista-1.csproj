@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8C2F66B1-B4AA-46BC-8707-78363A9EBCA1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Vitor_Lista_1</RootNamespace>
+    <AssemblyName>Vitor-Lista-1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form10_Vitor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form10_Vitor.Designer.cs">
+      <DependentUpon>Form10_Vitor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form11_Vitor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form11_Vitor.Designer.cs">
+      <DependentUpon>Form11_Vitor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form12_Vitor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form12_Vitor.Designer.cs">
+      <DependentUpon>Form12_Vitor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form13_Vitor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form13_Vitor.Designer.cs">
+      <DependentUpon>Form13_Vitor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form14_Vitor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form14_Vitor.Designer.cs">
+      <DependentUpon>Form14_Vitor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form16_Vitor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form16_Vitor.Designer.cs">
+      <DependentUpon>Form16_Vitor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form17_Vitor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form17_Vitor.Designer.cs">
+      <DependentUpon>Form17_Vitor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form18_Vitor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form18_Vitor.Designer.cs">
+      <DependentUpon>Form18_Vitor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form19_Vitor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form19_Vitor.Designer.cs">
+      <DependentUpon>Form19_Vitor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form20_Vitor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form20_Vitor.Designer.cs">
+      <DependentUpon>Form20_Vitor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form21_Vitor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form21_Vitor.Designer.cs">
+      <DependentUpon>Form21_Vitor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2_Vitor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2_Vitor.Designer.cs">
+      <DependentUpon>Form2_Vitor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3_Vitor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3_Vitor.Designer.cs">
+      <DependentUpon>Form3_Vitor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4_Vitor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4_Vitor.Designer.cs">
+      <DependentUpon>Form4_Vitor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form5_Vitor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5_Vitor.Designer.cs">
+      <DependentUpon>Form5_Vitor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form6_Vitor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6_Vitor.Designer.cs">
+      <DependentUpon>Form6_Vitor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form7_Vitor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form7_Vitor.Designer.cs">
+      <DependentUpon>Form7_Vitor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form8_Vitor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form8_Vitor.Designer.cs">
+      <DependentUpon>Form8_Vitor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form9_Vitor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form9_Vitor.Designer.cs">
+      <DependentUpon>Form9_Vitor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form10_Vitor.resx">
+      <DependentUpon>Form10_Vitor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form11_Vitor.resx">
+      <DependentUpon>Form11_Vitor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form12_Vitor.resx">
+      <DependentUpon>Form12_Vitor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form13_Vitor.resx">
+      <DependentUpon>Form13_Vitor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form14_Vitor.resx">
+      <DependentUpon>Form14_Vitor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form16_Vitor.resx">
+      <DependentUpon>Form16_Vitor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form17_Vitor.resx">
+      <DependentUpon>Form17_Vitor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form18_Vitor.resx">
+      <DependentUpon>Form18_Vitor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form19_Vitor.resx">
+      <DependentUpon>Form19_Vitor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form20_Vitor.resx">
+      <DependentUpon>Form20_Vitor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form21_Vitor.resx">
+      <DependentUpon>Form21_Vitor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2_Vitor.resx">
+      <DependentUpon>Form2_Vitor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3_Vitor.resx">
+      <DependentUpon>Form3_Vitor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4_Vitor.resx">
+      <DependentUpon>Form4_Vitor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5_Vitor.resx">
+      <DependentUpon>Form5_Vitor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6_Vitor.resx">
+      <DependentUpon>Form6_Vitor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form7_Vitor.resx">
+      <DependentUpon>Form7_Vitor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form8_Vitor.resx">
+      <DependentUpon>Form8_Vitor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form9_Vitor.resx">
+      <DependentUpon>Form9_Vitor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
